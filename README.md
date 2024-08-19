@@ -1,2 +1,5 @@
-"# my_internship"
-the sql files all in folder : table_sql_codes , to get  the data base import the file : myinternship.sql
+MyInternship
+a website designed for students to find internships 
+
+
+this is a school project so it is a result of a group od students' efforts 
