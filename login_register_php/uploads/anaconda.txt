@@ -1,0 +1,7 @@
+anaconda version : conda --version 
+new work : conda create --name name
+conda activate name 
+conda env list 
+conda install jupyternotebook
+launch 
+conda desactivate 
