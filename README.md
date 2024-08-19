@@ -1,4 +1,4 @@
-MyInternship
+ MyInternship
 a website designed for students to find internships 
 
 
