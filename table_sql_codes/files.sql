@@ -1,0 +1,10 @@
+CREATE TABLE files (
+  id_files INT AUTO_INCREMENT PRIMARY KEY,
+  file_name VARCHAR(255) NOT NULL,
+  file_path VARCHAR(255) NOT NULL,
+  file_type VARCHAR(100) NOT NULL,
+  file_size INT NOT NULL,
+  `id` bigint(20) UNSIGNED NOT NULL,
+  FOREIGN KEY (`id`) REFERENCES `users`(`id`),
+  uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

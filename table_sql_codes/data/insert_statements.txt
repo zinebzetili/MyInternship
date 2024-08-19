@@ -1,0 +1,61 @@
+INSERT INTO internship (title, description, website_link, location, start_date, end_date, salary, create_datetime, id_establishement) VALUES 
+('Marketing Intern', 'This is a description for internship 1', 'https://example.com/internship-1', 'Annaba', '2023-09-02', '2023-12-01', 10425, '2023-04-28 10:31:19.303791', 20),
+('Finance Intern', 'This is a description for internship 2', 'https://example.com/internship-2', 'Constantine','2023-01-20', '2023-02-19', 8768, '2023-04-28 10:31:19.304762', 20),
+('Marketing Intern', 'This is a description for internship 3', 'https://example.com/internship-3', 'Constantine','2023-05-10', '2023-06-09', 14715, '2023-04-28 10:31:19.305760', 20),
+('Software Development Intern', 'This is a description for internship 4', 'https://example.com/internship-4', 'Setif','2023-12-05', '2024-04-03', 12809, '2023-04-28 10:31:19.306757', 20),
+('Graphic Design Intern', 'This is a description for internship 5', 'https://example.com/internship-5', 'Setif','2023-12-09', '2024-02-07', 9721, '2023-04-28 10:31:19.306757', 20),
+('Marketing Intern', 'This is a description for internship 6', 'https://example.com/internship-6', 'Annaba','2023-04-28', '2023-08-26', 6751, '2023-04-28 10:31:19.307754', 20),
+('Marketing Intern', 'This is a description for internship 1', 'https://example.com/internship-1', 'Setif', '2023-03-17', '2023-06-15', 12202, '2023-04-28 10:31:25.384445', 20),
+('Graphic Design Intern', 'This is a description for internship 2', 'https://example.com/internship-2', 'Annaba','2023-05-21', '2023-09-18', 7899, '2023-04-28 10:31:25.384445', 20),
+('Software Development Intern', 'This is a description for internship 3', 'https://example.com/internship-3', 'Algiers','2023-05-17', '2023-07-16', 14546, '2023-04-28 10:31:25.384445', 20),
+('Marketing Intern', 'This is a description for internship 4', 'https://example.com/internship-4', 'Annaba', '2023-02-10', '2023-07-10', 5204, '2023-04-28 10:31:25.384445', 20),
+('Software Development Intern', 'This is a description for internship 5', 'https://example.com/internship-5', 'Constantine','2023-04-01', '2023-09-28', 14602, '2023-04-28 10:31:25.387487', 20),
+('Graphic Design Intern', 'This is a description for internship 6', 'https://example.com/internship-6', 'Constantine','2023-04-13', '2023-08-11', 6420, '2023-04-28 10:31:25.388485', 20),
+('Finance Intern', 'This is a description for internship ID 81', 'https://example.com/internship-81', 'Setif','2023-06-21', '2023-12-18', 7348, '2023-04-28 10:39:18.211245', 20),
+('Graphic Design Intern', 'This is a description for internship ID 68', 'https://example.com/internship-68', 'Setif','2023-10-14', '2024-03-12', 9828, '2023-04-28 10:39:18.211245', 20),
+('Finance Intern', 'This is a description for internship ID 4', 'https://example.com/internship-4', 'Setif', '2023-03-12', '2023-09-08', 13489, '2023-04-28 10:39:18.211245', 20),
+('Software Development Intern', 'This is a description for internship ID 75', 'https://example.com/internship-75', 'Annaba','2023-01-13', '2023-04-13', 8932, '2023-04-28 10:39:18.215673', 20),
+('Finance Intern', 'This is a description for internship ID 46', 'https://example.com/internship-46', 'Oran', 2, '2023-11-15', '2024-01-14', 10598, '2023-04-28 10:39:18.215673', 20),
+('Software Development Intern', 'This is a description for internship ID 76', 'https://example.com/internship-76', 'Algiers','2023-04-01', '2023-07-30', 14892, '2023-04-28 10:39:18.217668', 20);
+
+scholrhsip:
+
+INSERT INTO scholarships (title, description, website_link, location, start_date, end_date, type, create_datetime, id_establishement) VALUES 
+('Scholarship 2', 'Description 4', 'http://www.scholarship1.com', 'Location 5', '2023-05-28', '2023-06-27', 'Partially Funded', '2023-04-28 11:05:09', 20),
+('Scholarship 2', 'Description 4', 'http://www.scholarship2.com', 'Location 2', '2023-06-27', '2023-07-27', 'Fully Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 3', 'Description 4', 'http://www.scholarship3.com', 'Location 2',  '2023-07-27', '2023-08-26', 'Partially Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 2', 'Description 4', 'http://www.scholarship4.com', 'Location 1', '2023-08-26', '2023-09-25', 'Partially Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 5', 'Description 1', 'http://www.scholarship5.com', 'Location 1', 11, '2023-09-25', '2023-10-25', 'Fully Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 2', 'Description 2', 'http://www.scholarship6.com', 'Location 5', 11, '2023-10-25', '2023-11-24', 'Fully Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 2', 'Description 1', 'http://www.scholarship7.com', 'Location 1', 8, '2023-11-24', '2023-12-24', 'Partially Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 4', 'Description 5', 'http://www.scholarship8.com', 'Location 4', 7, '2023-12-24', '2024-01-23', 'Fully Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 3', 'Description 2', 'http://www.scholarship9.com', 'Location 4', 9, '2024-01-23', '2024-02-22', 'Partially Funded', '2023-04-28 11:05:09', NULL),
+('Scholarship 3', 'Description 4', 'http://www.scholarship10.com', 'Location 5', 2, '2024-02-22', '2024-03-23', 'Partially Funded', '2023-04-28 11:05:09', NULL);
+
+talks
+INSERT INTO talks (name, description, website_link, location, duration, create_datetime, id_establishement, talk_date) VALUES ('Blockchain Technology', 'Get practical advice and strategies for planning your career path and achieving your goals.', 'http://www.example.com/0', 'Berlin', 3, '2023-03-03 22:29:21.555937', NULL, 
+'2023-03-11'),
+('Blockchain Technology', 'Get practical advice and strategies for planning your career path and achieving your goals.', 'http://www.example.com/1', 'London', 2, '2023-04-20 21:02:21.555937', NULL, 
+'2023-04-24'),
+('Career Planning and Development', 'Discover how blockchain technology is revolutionizing industries, from finance to supply chain management.', 'http://www.example.com/2', 'Sydney', 180, '2023-03-18 20:33:21.555937', NULL, '2023-03-28'),
+('Sustainability and Green Technologies', 'Hear from successful entrepreneurs and learn about the challenges and opportunities of starting a business.', 'http://www.example.com/3', 'New York', 180, '2023-04-18 09:58:21.558146', NULL, '2023-05-10'),
+('Sustainability and Green Technologies', 'Explore the latest advancements and ethical considerations in the field of artificial intelligence.', 'http://www.example.com/4', 'Paris', 120, '2023-03-15 00:52:21.559143', NULL, '2023-03-17'),
+('Cybersecurity Trends and Threats', 'Get practical advice and strategies for planning your career path and achieving your goals.', 'http://www.example.com/5', 'New York', 120, '2023-04-04 21:58:21.561138', NULL, '2023-04-06'),
+('Career Planning and Development', 'Discover innovative solutions for environmental challenges and the growing field of sustainable technologies.', 'http://www.example.com/6', 'Toronto', 60, '2023-03-14 08:04:21.562135', NULL, '2023-03-16'),
+('Introduction to Machine Learning', 'Explore the latest advancements and ethical considerations in the field of artificial intelligence.', 'http://www.example.com/7', 'Dubai', 60, '2023-04-15 04:14:21.563133', NULL, '2023-04-16'),
+('The Future of Artificial Intelligence', 'Unlock your creativity and learn how to cultivate an innovative mindset in the workplace.', 'http://www.example.com/8', 'New York', 60, '2023-04-15 15:26:21.564130', NULL, '2023-05-15'),
+('Sustainability and Green Technologies', 'Explore the latest advancements and ethical considerations in the field of artificial intelligence.', 'http://www.example.com/9', 'Dubai', 120, '2023-03-23 05:19:21.565130', NULL, '2023-04-22');
+
+jobs 
+
+INSERT INTO jobs_part (title, description, website_link, location, duration, start_date, end_date, position, company_name, create_datetime, id_establishement) VALUES 
+('Product Manager Job', 'This is a Product Manager Job position at Microsoft.', 'http://www.microsoft.com/careers', 'Seattle, USA', 11, '2023-06-02', '2024-04-27', 'Marketing Manager', 'Google', '2023-04-28 11:24:11', NULL),
+('Marketing Manager Job', 'This is a Marketing Manager Job position at Facebook.', 'http://www.facebook.com/careers', 'Seattle, USA', 7, '2023-12-04', '2024-07-01', 'Software Engineer', 'Facebook', '2023-04-28 11:24:11', NULL),
+('Marketing Manager Job', 'This is a Marketing Manager Job position at Microsoft.', 'http://www.apple.com/careers', 'Seattle, USA', 12, '2023-10-07', '2024-10-01', 'Marketing Manager', 'Microsoft', '2023-04-28 11:24:11', NULL),
+('Software Engineer Job', 'This is a Software Engineer Job position at Amazon.', 'http://www.apple.com/careers', 'San Francisco, USA', 5, '2023-07-12', '2023-12-09', 'Sales Representative', 'Facebook', '2023-04-28 11:24:11', NULL),
+('Data Scientist Job', 'This is a Data Scientist Job position at Facebook.', 'http://www.facebook.com/careers', 'Chicago, USA', 11, '2023-10-12', '2024-09-06', 'Product Manager', 'Google', '2023-04-28 11:24:11', NULL),
+('Data Scientist Job', 'This is a Data Scientist Job position at Microsoft.', 'http://www.microsoft.com/careers', 'San Francisco, USA', 6, '2023-12-04', '2024-06-01', 'Sales Representative', 'Amazon', '2023-04-28 11:24:11', NULL),
+('Marketing Manager Job', 'This is a Marketing Manager Job position at Apple.', 'http://www.google.com/careers', 'New York, USA', 4, '2023-11-19', '2024-03-18', 'Marketing Manager', 'Amazon', '2023-04-28 11:24:11', NULL),
+('Data Scientist Job', 'This is a Data Scientist Job position at Apple.', 'http://www.facebook.com/careers', 'Los Angeles, USA', 12, '2023-04-05', '2024-03-30', 'Marketing Manager', 'Google', '2023-04-28 11:24:11', NULL),
+('Product Manager Job', 'This is a Product Manager Job position at Facebook.', 'http://www.facebook.com/careers', 'Seattle, USA', 9, '2023-05-25', '2024-02-19', 'Software Engineer', 'Microsoft', '2023-04-28 11:24:11', NULL),
+('Product Manager Job', 'This is a Product Manager Job position at Amazon.', 'http://www.microsoft.com/careers', 'Chicago, USA', 8, '2023-06-03', '2024-01-29', 'Software Engineer', 'Microsoft', '2023-04-28 11:24:11', NULL);
